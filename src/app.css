@@ -1,0 +1,67 @@
+.app {
+    display: flex;
+  }
+  
+  .todolist-container {
+    margin-left: 260px; /* Assuming the sidebar is 250px wide + 10px padding */
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .todolist-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .add-task-form {
+    margin-bottom: 20px;
+  }
+  
+  .add-task-form input[type="text"] {
+    width: calc(100% - 60px);
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .task-options {
+    margin-top: 10px;
+  }
+  
+  .task-options label {
+    margin-right: 20px;
+  }
+  
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .task-list li.important-task {
+    color: #dc3545;
+  }
+  
+  .completed-tasks {
+    margin-top: 20px;
+  }
+  
+  .completed-tasks li {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .task-list button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
